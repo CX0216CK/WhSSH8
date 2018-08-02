@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="01Hibernate:war exploded">
+    <output-path>$PROJECT_DIR$/01Hibernate/target/01Hibernate</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="01Hibernate" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/01Hibernate/target/01Hibernate/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="01Hibernate/web/Web" />
+    </root>
+  </artifact>
+</component>
